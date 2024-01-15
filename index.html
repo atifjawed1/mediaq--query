@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 350px;
+            background-color: black;
+            margin: auto;
+        }
+        button{
+            background-color:darkmagenta ;
+
+        }
+
+        @media only screen and (max-width: 450px)
+        {
+            .box{
+                height: 300px;
+                width: 250px;
+                background-color: rgb(218, 7, 7);
+
+            }
+            button{
+            display: block;
+            
+            
+        }
+        }
+        @media only screen and (min-width: 550px)
+        {
+            .box{
+                height: 500px;
+                width: 450px;
+                background-color: rgb(7, 218, 60);
+            }
+        }
+        @media only screen and (min-width: 700px)
+        {
+            .box{
+                height: 700px;
+                width: 650px;
+                background-color: darkblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center><button>click me</button>
+        <button>sick me</button></center>
+    </div>
+</body>
+</html>
